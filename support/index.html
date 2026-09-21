@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Peridial</title>
+<style>
+  :root{
+    --bg:#0b0f14; --panel:#11161d; --text:#e7ecf2; --muted:#9aa7b5;
+    --accent:#5eb1ff; --border:#232b35; --maxw:760px;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f7f8fa; --panel:#ffffff; --text:#1a2027; --muted:#5a6572; --accent:#0b6fd6; --border:#e2e6ea; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:48px 20px 80px;}
+  header{margin-bottom:32px;}
+  .brand{font-size:14px; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); font-weight:600;}
+  h1{font-size:28px; margin:8px 0 4px; letter-spacing:-.01em;}
+  .meta{color:var(--muted); font-size:14px; margin-bottom:8px;}
+  nav.pages{display:flex; gap:16px; margin:20px 0 8px; font-size:14px;}
+  nav.pages a{color:var(--muted); text-decoration:none; border-bottom:1px solid transparent;}
+  nav.pages a:hover{color:var(--accent); border-color:var(--accent);}
+  nav.pages a.active{color:var(--text); font-weight:600;}
+  .card{background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:28px 28px 8px; margin-top:24px;}
+  h2{font-size:19px; margin:28px 0 10px; letter-spacing:-.005em;}
+  h2:first-child{margin-top:0;}
+  p{margin:0 0 16px; color:var(--text);}
+  ul{margin:0 0 16px; padding-left:22px;}
+  li{margin-bottom:8px;}
+  .qa{margin-bottom:20px;}
+  .qa dt{font-weight:600; margin-bottom:6px;}
+  .qa dd{margin:0; color:var(--muted);}
+  strong{color:var(--text);}
+  a{color:var(--accent);}
+  .contact{display:inline-block; margin-top:6px; padding:10px 18px; background:var(--accent); color:#06121f;
+    border-radius:999px; text-decoration:none; font-weight:600;}
+  footer{margin-top:40px; color:var(--muted); font-size:13px; text-align:center;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">Peridial</div>
+    <h1>Support</h1>
+    <div class="meta">We're happy to help</div>
+    <nav class="pages">
+      <a href="../privacy/">Privacy Policy</a>
+      <a href="../terms/">Terms of Use</a>
+      <a class="active" href="./">Support</a>
+    </nav>
+  </header>
+
+  <div class="card">
+    <p>Need help with Peridial? Reach out any time.</p>
+    <p><a class="contact" href="mailto:tremainejerde8549@icloud.com">Email tremainejerde8549@icloud.com</a></p>
+    <p>We aim to respond within 2–3 business days.</p>
+
+    <h2>Frequently asked questions</h2>
+    <dl class="qa">
+      <dt>Is my data backed up anywhere?</dt>
+      <dd>No. Peridial is a local-first, offline app — everything you create (events, notes, tracked patterns) is
+      stored only on your device. There is no cloud sync, so if you delete the App or lose your device without a
+      personal backup (such as an iCloud device backup you manage yourself), that data cannot be recovered by
+      us.</dd>
+    </dl>
+    <dl class="qa">
+      <dt>Does Peridial need an internet connection?</dt>
+      <dd>No. Peridial works entirely offline and does not require or use a network connection for any
+      feature.</dd>
+    </dl>
+    <dl class="qa">
+      <dt>Why does Peridial ask for notification permission?</dt>
+      <dd>Only when you choose to "Track" a pattern, so the App can remind you about it. You can allow or deny
+      this in iOS Settings → Notifications → Peridial at any time without affecting any other feature.</dd>
+    </dl>
+    <dl class="qa">
+      <dt>Do you collect any analytics or personal data?</dt>
+      <dd>No. See our <a href="../privacy/">Privacy Policy</a> for full details.</dd>
+    </dl>
+    <dl class="qa">
+      <dt>How do I delete my data?</dt>
+      <dd>Delete individual entries inside the App, or delete the App itself from your device to remove all
+      locally stored data at once.</dd>
+    </dl>
+
+    <h2>Other links</h2>
+    <ul>
+      <li><a href="../privacy/">Privacy Policy</a></li>
+      <li><a href="../terms/">Terms of Use</a></li>
+    </ul>
+  </div>
+
+  <footer>Peridial — © 2026 Vi Truong Le</footer>
+</div>
+</body>
+</html>
